@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>sms</string>
+    <string>tel</string>
+  </array>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Your message to the user about why you need access to photos</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Your message to the user about why you need access to the camera</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Your message to the user about why you need access to the microphone</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>We need access to your photos to crop them</string>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>tel</string>
+  </array>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>We need your location to show maps</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>We need your location to show maps</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>We need your location to show relevant data on the map.</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>We need your location for continuous tracking.</string>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleExecutable</key>
+  <string>App</string>
+  <key>CFBundleIdentifier</key>
+  <string>io.flutter.flutter.app</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>App</string>
+  <key>CFBundlePackageType</key>
+  <string>FMWK</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleVersion</key>
+  <string>1.0</string>
+  <key>MinimumOSVersion</key>
+  <string>12.0</string>
+</dict>
+</plist>
